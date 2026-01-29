@@ -20,7 +20,9 @@ LOG_FILE = "integrity.log"
 # Folder we want to protect and monitor
 MONITOR_FOLDER = "./monitor"
 
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1463261712416378943/EXD0CrtFVeNJolEMUBDSLhZthxmjbxO2L5vAMNamCnp9E0XdMAQ55XYQFFh0SYt0qlD9"
+DISCORD_WEBHOOK_URL = "YOUR_DISCORD_WEBHOOKURL_HERE"
+#where to get hook: discord > ur any channel > create any text channel > its setting > integration > webhooks > new webhook > copy that webhook and paste it here that it
+
 # =====================================================
 # LOGGING SETUP (professional security style)
 # =====================================================
