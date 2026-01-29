@@ -3,7 +3,6 @@ npm install
 
 🔗 Step 1 – Add Your Discord Webhook
 Open watcher.py and find the configuration section near the top
-
 You will see something like:
 DISCORD_WEBHOOK_URL = "YOUR_WEBHOOK_URL_HERE"
 
@@ -31,17 +30,17 @@ Run once:
 This creates the trusted fingerprint snapshot.
 
 Step 4 - Start Real-Time Monitoring
-python3 watcher.py
+```python3 watcher.py```
 you should see :
 File Integrity Monitor started...
 
 Options:
 to run in background:
-nohup python3 watcher.py &
+```nohup python3 watcher.py &```
 
 Auto Start on Reboot(Cron):
-crontab -e
-@reboot python3 /full/path/to/watcher.py
+```crontab -e```
+```@reboot python3 /full/path/to/watcher.py```
 
 ✅ That’s it
 
