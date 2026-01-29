@@ -26,7 +26,7 @@ Only files inside this folder will be monitored.
 
 Run once:
 
-python3 baseline_create.py
+```python3 baseline_create.py```
 
 This creates the trusted fingerprint snapshot.
 
